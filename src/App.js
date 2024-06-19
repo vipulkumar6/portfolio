@@ -3,9 +3,12 @@ import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom
 import SideNavbar from './components/SideNavbar';
 import Home from './components/Home';
 import { NextUIProvider } from "@nextui-org/react";
+import { Divider } from "@nextui-org/react";
 
 import './App.css'
 import About from './pages/About';
+import Education from './pages/Education';
+import Footer from './components/Footer';
 function App() {
   return (
     <NextUIProvider>
@@ -17,10 +20,13 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={Home} />
             <Route path="/skills" element={Home} />
-            <Route path="/education" element={Home} />
+            <Route path="/education" element={<Education />} />
           </Routes>
         </div>
+
+
       </div>
+
     </NextUIProvider>
 
 

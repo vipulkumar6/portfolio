@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { GoHome } from "react-icons/go";
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom'; import { GoHome } from "react-icons/go";
 import { CiUser } from "react-icons/ci";
 import { FaProjectDiagram } from "react-icons/fa";
 import { IoIosCheckboxOutline } from "react-icons/io";
@@ -13,39 +13,40 @@ function SideNavbar() {
             <div className="side_header">
                 <h4>V K</h4>
             </div>
+
             <div className="tablink">
 
                 <GoHome />
 
-                <Link className='link' to="/" activeClassName="active">Home</Link>
+                <RouterLink className='link' to="/" activeClassName="active">Home</RouterLink>
             </div>
 
             <div className="tablink">
 
                 <CiUser />
 
-                <Link className='link' to="/about" activeClassName="active">About</Link>
+                <RouterLink className='link' to="/about" activeClassName="active">About</RouterLink>
             </div>
 
             <div className="tablink">
 
                 <FaProjectDiagram />
 
-                <Link className='link' to="/projects" activeClassName="active">Projects</Link>
+                <ScrollLink className='link' to="/projects" activeClassName="active">Projects</ScrollLink>
             </div>
 
             <div className="tablink">
 
                 <IoIosCheckboxOutline />
 
-                <Link className='link' to="/skills" activeClassName="active">Skills</Link>
+                <ScrollLink className='link' to="section1" smooth={true} duration={500} activeClassName="active">Skills</ScrollLink>
             </div>
 
             <div className="tablink">
 
                 <HiAcademicCap />
 
-                <Link className='link' to="/education" activeClassName="active">Education</Link>
+                <ScrollLink className='link' to="/education" activeClassName="active">Education</ScrollLink>
             </div>
 
         </div >
