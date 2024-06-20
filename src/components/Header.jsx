@@ -5,10 +5,19 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { LuDownload } from "react-icons/lu";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
-
+import { Link as ScrollLink } from 'react-scroll';
 
 import '../App.css'
 const Header = () => {
+
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/resume/VIPUL KUMAR Resume.pdf';
+        link.download = 'Vipul_Kumar_CV.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <div className='header flex'>
             <div className="descriptions">
@@ -23,7 +32,7 @@ const Header = () => {
                 </div>
                 <div>
                     <a className='mailto' href="mailto:vipulkumar0067@gmail.com">
-                        <span className='flex items-center'> <CiMail size={20} className='mr-1' /> <p> vipulkumar0067@gmail.com</p></span>
+                        <span className=''> vipulkumar0067@gmail.com</span>
                     </a>
 
                     <div className='social_links'>
@@ -33,9 +42,12 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="buttons">
-                <button>Connect</button>
-                <button>Download CV <LuDownload /></button>
+            <div className="a">
+                <ScrollLink className='link tablink' to="contact" smooth={true} duration={500} activeClassName="active">
+                    <button>Connect</button>
+                </ScrollLink>
+
+                <button onClick={handleDownload}>Download CV <LuDownload /></button>
             </div>
         </div>
     )

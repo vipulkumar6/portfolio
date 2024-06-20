@@ -19,15 +19,19 @@
 }
 
 .side-navbar .tablink {
-    padding: 8px 15px;
+    padding: 16px 15px;
     text-decoration: none;
     color: #D7D7D7;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+}
+
+.side-navbar .tablink span {
+    margin-left: 12px;
 }
 
 .side-navbar .tablink:hover {

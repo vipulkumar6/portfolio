@@ -3,30 +3,54 @@ const projects = [
         id: 1,
         title: "Zomato Clone",
         image: "/Images/zomato-clone.png",
-        technologies: ["React", "JavaScript", "CSS"],
+        technologies: ["React", "JavaScript", "HTML", "CSS", "MUI"],
         githubLink: "https://github.com/yourusername/project1",
         liveLink: "https://yourproject1website.com"
     },
     {
         id: 2,
-        title: "E Learning Website",
-        image: "/Images/e learning.png",
-        technologies: ["React", "Node.js", "MongoDB"],
+        title: "E- Commerce Website",
+        image: "/Images/zomato-clone.png",
+        technologies: ["React", "Node.js", "MongoDB", "JavaScript", "Express", "Firebase"],
         githubLink: "https://github.com/yourusername/project2",
         liveLink: "https://yourproject2website.com"
     },
     {
         id: 3,
+        title: "E Learning Website",
+        image: "/Images/e learning.png",
+        technologies: ["React", "HTML", "CSS", "Sweet Alert"],
+        githubLink: "https://github.com/yourusername/project2",
+        liveLink: "https://edomainall.web.app/"
+    },
+    {
+        id: 4,
         title: "Plant Disease Detection VGG19",
         image: "/Images/e learning.png",
-        technologies: ["React", "Node.js", "MongoDB"],
+        technologies: ["React", "Python", "VGG19", "Deep Learning", "Tensorflow"],
         githubLink: "https://github.com/yourusername/project2",
         liveLink: "https://yourproject2website.com"
     },
     {
-        id: 4,
+        id: 5,
+        title: "Dev Error Fixer",
+        image: "/Images/dev-error-fixer.png",
+        technologies: ["React", "Node.js", "Firebase", "Netlify"],
+        githubLink: "https://github.com/yourusername/project2",
+        liveLink: "https://stackoverflow-8rem.onrender.com/"
+    },
+    {
+        id: 6,
         title: "AI Generative",
-        image: "/Images/e learning.png",
+        image: "/Images/generative-ai.png",
+        technologies: ["React", "Node.js", "Firebase", "Netlify"],
+        githubLink: "https://github.com/vipulkumar6/GenerativeAI",
+        liveLink: "https://ai-generative.netlify.app/"
+    },
+    {
+        id: 7,
+        title: "Wordpress Website",
+        image: "/Images/zomato-clone.png",
         technologies: ["React", "Node.js", "MongoDB"],
         githubLink: "https://github.com/yourusername/project2",
         liveLink: "https://yourproject2website.com"

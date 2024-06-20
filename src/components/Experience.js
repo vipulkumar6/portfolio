@@ -20,7 +20,7 @@ const exps = [
         company_name: "Next Web Guru PVT LTD",
         role: "Full Stack Developer Intern",
         duration: "1 Jun 2023 - 1 Aug 2023 • 2 Months",
-        desc: "built an E-Commercewebsite Increased load speed by 15% through performance optimization techniques.",
+        desc: "Built an E-Commercewebsite Increased load speed by 15% through performance optimization techniques.",
         tech: ' React, JavaScript, CSS, Bootstrap'
     },
 ]
@@ -32,7 +32,7 @@ const Experience = () => {
                 <h1 className=''>Experience</h1>
                 {
                     exps.map((exp, key) => {
-                        return <div className="container my-4 p-3 border rounded shadow-sm mb-2">
+                        return <div key={key} className="container my-4 p-3 shadow-sm mb-2">
                             <h2 className="sub_heading_title">{exp.company_name}<GoDotFill size={13} /> {exp.role}</h2>
                             <p className="duration">{exp.duration}</p>
                             <p className="description">

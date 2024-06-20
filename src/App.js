@@ -7,8 +7,8 @@ import { Divider } from "@nextui-org/react";
 
 import './App.css'
 import About from './pages/About';
-import Education from './pages/Education';
 import Footer from './components/Footer';
+import AcademicDetails from './pages/Education';
 function App() {
   return (
     <NextUIProvider>
@@ -20,14 +20,14 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={Home} />
             <Route path="/skills" element={Home} />
-            <Route path="/education" element={<Education />} />
+            <Route path="/education" element={<AcademicDetails />} />
           </Routes>
         </div>
 
 
       </div>
 
-    </NextUIProvider>
+    </NextUIProvider >
 
 
   );

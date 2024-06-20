@@ -32,6 +32,15 @@
   }
 }
 
+/* common css  */
+
+.divider {
+
+  margin: 20px 0;
+
+
+}
+
 .App {
   display: flex;
 }
@@ -67,9 +76,9 @@
 .content-container {
   /* padding: 20px; */
   padding: 20px;
-  margin-left: 250px;
+  margin-left: 270px;
 
-  width: calc(100% - 250px);
+  width: calc(100% - 270px);
 
 }
 
@@ -101,12 +110,18 @@
 
 }
 
+.header .mailto {
+  display: inline;
+  width: 340px;
+}
+
 .header .mailto span {
-  transition: transform 300ms cubic-bezier(0.3, 0.7, 0.4, 1);
+
+  transition: transform 300ms;
 
 }
 
-.header .mailto span:hover {
+.header .mailto:hover {
   transform: translateY(-3px);
 }
 
@@ -118,7 +133,7 @@
   height: 130px;
   width: 130px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 4px solid #fff;
   margin: 0 10px 10px 0;
 }
 
@@ -138,11 +153,14 @@
 
 .header button {
   padding: 10px 14px;
-  border: 1px solid var(--light_border_white);
+  border: 1px solid var(--side_border);
+  width: 170px !important;
+
   margin: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 
 }
 
@@ -210,9 +228,27 @@
   border-radius: 3px;
   width: 240px;
   height: 130px;
+  transition: 0.4s all ease-in-out !important;
+}
+
+.skill_card:hover .skill_header {
+  transform: translateX(4px);
+  /* scale: 10px; */
+}
+
+.skill_card:hover .skill_desc {
+  /* border: 2px solid red; */
+  transform: translateX(4px);
+  /* scale: 10px; */
+}
+
+.skill_card .skill_desc {
+  transition: 0.3s all ease-in-out !important;
+
 }
 
 .skills .skill_header {
+  transition: 0.3s all ease-in-out !important;
 
   margin-bottom: 5px;
   color: #eee9e9;
@@ -231,15 +267,15 @@
   background: linear-gradient(145deg, #1C1B23, #1C1B23);
   border-radius: 7px;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  color: var(--light_border_white)
 }
 
 
 .experience h1 {
   color: #57D1D6;
   font-size: 20px;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 10px;
+
 }
 
 .experience .dot {
@@ -249,37 +285,16 @@
   color: #007bff;
 }
 
-.experience .exp_card {
-  display: flex;
-  /* align-items: center; */
-  border: 1px solid green;
-  justify-content: flex-start;
-}
 
-.exp_card .content {
-
-  padding: 0;
-}
-
-.experience .exp_header {
-  display: flex;
-  font-weight: 500;
-
-  align-items: center;
-}
-
-.experience .exp_header h4 {}
-
-.experience .exp_card span {
-  margin-bottom: 5px;
-  font-size: 14px;
-}
 
 /* src/InternshipDetails.css */
 .experience .container {
-  max-width: 600px;
-  margin: 0 auto;
-  margin: 10px auto;
+
+
+  /* border: 2px solid; */
+  margin: 9px 140px;
+  overflow: hidden;
+  width: 80%;
 }
 
 .sub_heading_title {
@@ -287,6 +302,7 @@
   font-weight: 500;
   display: flex;
   align-items: center;
+
 }
 
 .role {
@@ -297,6 +313,7 @@
 .experience .duration {
   margin-bottom: 13px !important;
   font-style: italic;
+  color: var(--light_border_white);
 }
 
 
@@ -304,11 +321,10 @@
   margin-top: 7px;
 }
 
-.duration,
 .description,
 .technologies {
   font-size: 1rem;
-  color: #777;
+  color: #d6d6d4;
 }
 
 .footer_divider {
@@ -321,8 +337,8 @@
 .about_container {
 
   padding: 20px;
-  margin: 30px auto;
-  width: 90%;
+  margin: 10px auto;
+  /* width: 90%;s */
   border-left: 5px solid var(--side_border);
   background: linear-gradient(145deg, #1C1B23, #1C1B23);
   border-radius: 7px;
@@ -333,6 +349,7 @@
 
 .about_container h1 {
   font-size: 24px;
+  color: var(--side_border);
 }
 
 .about_container p {
@@ -347,4 +364,83 @@
 .about_container .social_links .link {
   margin: 10px;
   font-size: 20px;
+}
+
+
+/* ##  education  */
+
+
+.academic-details {
+
+  padding: 12px;
+  margin: 10px 0;
+  border-left: 5px solid var(--side_border);
+  border-bottom: 1px solid var(--other_side_border);
+  border-top: 1px solid var(--other_side_border);
+  border-right: 1px solid var(--other_side_border);
+  background: linear-gradient(145deg, #1C1B23, #1C1B23);
+  border-radius: 7px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  color: var(--light_border_white)
+}
+
+.academic-details .academic-degree {
+  color: var(--box_dark_bg);
+}
+
+
+
+.academic-details h1 {
+  color: #57D1D6;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.academic-details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.academic-item {
+
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px 140px;
+}
+
+.academic-duration {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #000;
+  display: inline;
+}
+
+.academic-degree {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.academic-institution {
+  font-size: 16px;
+  color: #666;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+.academic-gpa {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+
 }

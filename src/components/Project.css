@@ -14,19 +14,18 @@
     /* Gradient with different shades of black */
     border-radius: 7px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-
+    /* width: 80%; */
 }
 
 .project {
     display: flex;
-
-
     flex-direction: column;
     width: 260px;
     overflow: hidden;
     height: 260px;
     border-radius: 10px;
     background-color: #fff;
+
 }
 
 .projects h1 {
@@ -52,12 +51,19 @@
     height: 150px;
     overflow: hidden !important;
     border-bottom: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+
 }
 
 .project h3 {
     margin-top: 10px;
     font-size: 15px;
     font-weight: bold;
+    color: #000C40;
 }
 
 .project p {
@@ -85,6 +91,15 @@
     justify-content: space-between;
     margin-top: auto;
     /* Push the links to the bottom */
+    color: #006FEE;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.project .description .links a:hover {
+
+    color: #4a99f2;
+    /* font-weight: 400; */
 }
 
 .project .description a div {
@@ -93,4 +108,10 @@
 
 .project .description a div svg {
     margin-right: 5px;
+}
+
+.slick-slider button.slick-arrow.slick-prev {
+    border: 2px solid #fff;
+    size: 40px;
+    font-size: 20px;
 }
