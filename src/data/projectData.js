@@ -4,8 +4,8 @@ const projects = [
         title: "Zomato Clone",
         image: "/Images/zomato-clone.png",
         technologies: ["React", "JavaScript", "HTML", "CSS", "MUI"],
-        githubLink: "https://github.com/yourusername/project1",
-        liveLink: "https://yourproject1website.com"
+        githubLink: "https://github.com/vipulkumar6/zomato-clone",
+        liveLink: "https://zomato-clone-puce-eight.vercel.app/"
     },
     {
         id: 2,
@@ -28,8 +28,8 @@ const projects = [
         title: "Plant Disease Detection VGG19",
         image: "/Images/e learning.png",
         technologies: ["React", "Python", "VGG19", "Deep Learning", "Tensorflow"],
-        githubLink: "https://github.com/yourusername/project2",
-        liveLink: "https://yourproject2website.com"
+        githubLink: "https://github.com/vipulkumar6/plant-leaf-disease-detection-vgg19",
+        liveLink: "https://drive.google.com/file/d/1N_O-0EsoqX6Ag9a31eX5krbU5iqPboge/view?usp=sharing"
     },
     {
         id: 5,

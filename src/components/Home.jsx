@@ -19,7 +19,7 @@ import "react-multi-carousel/lib/styles.css";
 import About from '../pages/About';
 
 import AcademicDetails from '../pages/Education';
-import Contact from '../pages/contact';
+import Contact from '../pages/Contact';
 
 
 
@@ -96,7 +96,7 @@ const Home = () => {
                                 }>
                                     <Card>
                                         <CardBody>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            Updating soon
                                         </CardBody>
                                     </Card>
 
@@ -110,7 +110,7 @@ const Home = () => {
                                 }>
                                     <Card>
                                         <CardBody>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            Updating soon
                                         </CardBody>
                                     </Card>
 
@@ -124,7 +124,7 @@ const Home = () => {
                                 }>
                                     <Card>
                                         <CardBody>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            Updating soon
                                         </CardBody>
                                     </Card>
                                 </Tab>
@@ -137,7 +137,7 @@ const Home = () => {
                                 }>
                                     <Card>
                                         <CardBody>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            Updating soon
                                         </CardBody>
                                     </Card>
                                 </Tab>

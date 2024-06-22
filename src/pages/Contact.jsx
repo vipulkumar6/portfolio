@@ -16,10 +16,10 @@ const Contact = () => {
             <div className='direct_contact'>
                 <div className='flex items-center justify-between items'>
                     <div className='flex items-center'>
-                        <MdOutlineEmail /> <span>vipulkumar0067@gmail.com</span>
+                        <MdOutlineEmail size={20} /> <span>vipulkumar0067@gmail.com</span>
                     </div>
-                    <div className=' ml-2 flex items-center'>
-                        <FaPhoneAlt /> <span>8279988518</span>
+                    <div className=' ml-3 flex items-center'>
+                        <FaPhoneAlt size={20} /> <span>8279988518</span>
                     </div>
                 </div>
                 <div className='flex irems-center item'>
