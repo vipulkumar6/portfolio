@@ -91,7 +91,7 @@ const Home = () => {
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
                                         <span>MERN</span>
-                                        <Chip size="sm" variant="faded">9</Chip>
+                                        <Chip size="sm" variant="faded">5</Chip>
                                     </div>
                                 }>
                                     <Card>
@@ -105,7 +105,7 @@ const Home = () => {
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
                                         <span>ML/AI</span>
-                                        <Chip size="sm" variant="faded">9</Chip>
+                                        <Chip size="sm" variant="faded">7</Chip>
                                     </div>
                                 }>
                                     <Card>
