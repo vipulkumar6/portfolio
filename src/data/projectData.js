@@ -10,23 +10,23 @@ const projects = [
     {
         id: 2,
         title: "E- Commerce Website",
-        image: "/Images/zomato-clone.png",
+        image: "/Images/e-comm.png",
         technologies: ["React", "Node.js", "MongoDB", "JavaScript", "Express", "Firebase"],
-        githubLink: "https://github.com/yourusername/project2",
-        liveLink: "https://yourproject2website.com"
+        githubLink: "https://github.com/vipulkumar6/e-comm-mern-app",
+        liveLink: "https://github.com/vipulkumar6/e-comm-mern-app"
     },
     {
         id: 3,
         title: "E Learning Website",
         image: "/Images/e learning.png",
         technologies: ["React", "HTML", "CSS", "Sweet Alert"],
-        githubLink: "https://github.com/yourusername/project2",
+        githubLink: "https://github.com/vipulkumar6/E-learning-website",
         liveLink: "https://edomainall.web.app/"
     },
     {
         id: 4,
         title: "Plant Disease Detection VGG19",
-        image: "/Images/e learning.png",
+        image: "/Images/plant-disease.png",
         technologies: ["React", "Python", "VGG19", "Deep Learning", "Tensorflow"],
         githubLink: "https://github.com/vipulkumar6/plant-leaf-disease-detection-vgg19",
         liveLink: "https://drive.google.com/file/d/1N_O-0EsoqX6Ag9a31eX5krbU5iqPboge/view?usp=sharing"
@@ -50,10 +50,10 @@ const projects = [
     {
         id: 7,
         title: "Wordpress Website",
-        image: "/Images/zomato-clone.png",
+        image: "/Images/wordpress1.png",
         technologies: ["React", "Node.js", "MongoDB"],
-        githubLink: "https://github.com/yourusername/project2",
-        liveLink: "https://yourproject2website.com"
+        githubLink: "",
+        liveLink: "https://campusgeeks.cloud/"
     },
 
 ];
