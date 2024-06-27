@@ -82,6 +82,14 @@
 
 }
 
+@media screen and (max-width: 768px) {
+
+  .content-container {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
 
 /* ## header  */
 
@@ -185,6 +193,22 @@
   }
 }
 
+
+@media screen and (max-width:768px) {
+  .buttons_header {
+    display: none;
+  }
+
+  .header .descriptions img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 10px 10px 0;
+  }
+
+}
+
 /* #skills  */
 
 
@@ -252,6 +276,18 @@
 
   margin-bottom: 5px;
   color: #eee9e9;
+}
+
+@media screen and (max-width:768px) {
+
+  .skill_card {
+    border: 1px solid #17AD8A;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    height: 130px;
+  }
+
 }
 
 /* # experience */
@@ -331,6 +367,27 @@
   border: 3px solid red !important;
 }
 
+@media screen and (max-width:768px) {
+
+  .experience .container {
+
+
+    /* border: 2px solid; */
+    margin: 10px;
+    overflow: hidden;
+    width: 80%;
+  }
+
+  .sub_heading_title {
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+
+  }
+
+}
 
 
 /* # about me  */

@@ -54,3 +54,12 @@
     margin: 5px 10px 5px 0;
     font-size: 25px;
 }
+
+@media screen and (max-width:768px) {
+
+    .contact_container {
+        padding: 12px;
+
+    }
+
+}
