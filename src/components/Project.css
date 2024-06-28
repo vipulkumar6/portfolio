@@ -115,3 +115,9 @@
     size: 40px;
     font-size: 20px;
 }
+
+.project_carousel {
+    border: 2px solid;
+    display: flex;
+
+}

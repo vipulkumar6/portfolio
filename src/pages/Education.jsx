@@ -10,8 +10,8 @@ const AcademicDetails = () => {
             <div className="academic-item">
                 <div className="academic-duration">2020 - 2024</div>
                 <div className="academic-degree">B.Tech- Computer Science</div>
-                <div className="academic-institution"><FaUniversity /> Graphic Era University, Dehradun</div>
-                <div className="academic-gpa"><PiMedalLight /> GPA: 7.89/10.0</div>
+                <div className="academic-institution"><FaUniversity /> Graphic Era Hill University, Dehradun</div>
+                <div className="academic-gpa"><PiMedalLight /> GPA: 8.0/10.0</div>
             </div>
 
             <div className="academic-item">

@@ -207,6 +207,9 @@
     margin: 0 10px 10px 0;
   }
 
+  .about-desc p {
+    display: none;
+  }
 }
 
 /* #skills  */
@@ -333,11 +336,18 @@
   width: 80%;
 }
 
+.experience .container h4,
+p {
+  align-items: center;
+}
+
+
 .sub_heading_title {
   font-size: 1.3rem;
   font-weight: 500;
   display: flex;
   align-items: center;
+  margin-left: -12px;
 
 }
 
@@ -347,7 +357,6 @@
 }
 
 .experience .duration {
-  margin-bottom: 13px !important;
   font-style: italic;
   color: var(--light_border_white);
 }
@@ -375,7 +384,7 @@
     /* border: 2px solid; */
     margin: 10px;
     overflow: hidden;
-    width: 80%;
+    width: 100%;
   }
 
   .sub_heading_title {
@@ -383,8 +392,12 @@
     font-weight: 500;
     display: flex;
     align-items: center !important;
-    justify-content: center !important;
 
+  }
+
+  .experience .duration {
+
+    font-size: 14px;
   }
 
 }
@@ -424,7 +437,7 @@
 }
 
 
-/* ##  education  */
+/* ##  education  academic-details */
 
 
 .academic-details {
@@ -499,5 +512,19 @@
   margin-top: 5px;
   display: flex;
   align-items: center;
+
+}
+
+@media screen and (max-width:768px) {
+  .academic-item {
+
+
+    margin: 10px;
+  }
+
+  .academic-details {
+    padding: 4px;
+    margin: 0px !important;
+  }
 
 }

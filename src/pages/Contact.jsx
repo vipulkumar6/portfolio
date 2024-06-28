@@ -14,7 +14,7 @@ const Contact = () => {
     return (
         <div className='contact_container'>
             <div className='direct_contact'>
-                <div className='flex items-center justify-between items'>
+                <div className='flex flex-col lg:flex-row items-center justify-between items'>
                     <div className='flex items-center'>
                         <MdOutlineEmail size={20} /> <span>vipulkumar0067@gmail.com</span>
                     </div>

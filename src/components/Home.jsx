@@ -1,18 +1,14 @@
 import React from 'react'
 import { Tabs, Tab, Chip } from "@nextui-org/react";
-import { Card, CardBody } from "@nextui-org/react";
 import Project from './Project';
 import './Project.css'
 import { ScrollShadow } from "@nextui-org/react";
-import { Divider } from "@nextui-org/react";
-
 import Header from './Header';
-import projects from '../data/projectData'
+import { Allprojects, Mlprojects, frontend, mern } from '../data/projectData'
 import Skills from './Skills';
 import { Element } from 'react-scroll';
 import Experience from './Experience';
-
-import { div } from 'three/examples/jsm/nodes/Nodes.js';
+import { Code } from "@nextui-org/react";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -45,15 +41,16 @@ const responsive = {
 const Home = () => {
     return (
         <>
-            <Element name="home">
-                <Header />
-            </Element>
+
             <ScrollShadow hideScrollBar >
+                <Element name="home">
+                    <Header />
+                </Element>
                 <Element name='project'>
                     <div className='projects'>
                         <h1 className=' ml-2'>Projects</h1>
                         <div className=" flex w-full flex-col text-center justify-center">
-                            <Tabs aria-labeal="Options" size='lg' fullWidth={true} color="primary" variant="bordered" >
+                            <Tabs aria-label="Options" size='md' fullWidth={true} color="primary" variant="bordered" >
                                 <Tab key="all" title={
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
@@ -61,12 +58,34 @@ const Home = () => {
                                         <Chip size="sm" variant="faded">9</Chip>
                                     </div>
                                 }>
+
                                     <Carousel
                                         responsive={responsive}
                                         infinite={true}>
-                                        {projects.map((project) => (
+                                        {Allprojects.map((project, key) => (
 
-                                            <Project key={project.id} project={project} />
+                                            <div key={key} className='project_carosuel ml-5'>
+                                                <Project key={project.id} project={project} />
+                                            </div>
+                                        ))}
+                                    </Carousel>
+
+                                </Tab>
+                                <Tab key="mern" title={
+                                    <div className="flex items-center space-x-2">
+                                        {/* <GalleryIcon /> */}
+                                        <span>MERN</span>
+                                        <Chip size="sm" variant="faded">5</Chip>
+                                    </div>
+                                }>
+                                    <Carousel
+                                        responsive={responsive}
+                                        infinite={true}>
+                                        {mern.map((project, key) => (
+
+                                            <div key={key} className='project_carosuel ml-5'>
+                                                <Project key={project.id} project={project} />
+                                            </div>
                                         ))}
                                     </Carousel>
                                 </Tab>
@@ -79,28 +98,16 @@ const Home = () => {
                                 }>
                                     <Carousel
                                         responsive={responsive}
-                                        infinite={true}
-                                    >
-                                        {projects.map((project) => (
+                                        infinite={true}>
+                                        {frontend.map((project, key) => (
 
-                                            <Project key={project.id} project={project} />
+                                            <div key={key} className='project_carosuel ml-5'>
+                                                <Project key={project.id} project={project} />
+                                            </div>
                                         ))}
                                     </Carousel>
                                 </Tab>
-                                <Tab key="mern" title={
-                                    <div className="flex items-center space-x-2">
-                                        {/* <GalleryIcon /> */}
-                                        <span>MERN</span>
-                                        <Chip size="sm" variant="faded">5</Chip>
-                                    </div>
-                                }>
-                                    <Card>
-                                        <CardBody>
-                                            Updating soon
-                                        </CardBody>
-                                    </Card>
 
-                                </Tab>
                                 <Tab key="mlai" title={
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
@@ -108,11 +115,18 @@ const Home = () => {
                                         <Chip size="sm" variant="faded">7</Chip>
                                     </div>
                                 }>
-                                    <Card>
-                                        <CardBody>
-                                            Updating soon
-                                        </CardBody>
-                                    </Card>
+
+                                    <Carousel
+                                        responsive={responsive}
+                                        infinite={true}>
+                                        {Mlprojects.map((project, key) => (
+
+                                            <div key={key} className='project_carosuel ml-5'>
+                                                <Project key={project.id} project={project} />
+                                            </div>
+                                        ))}
+                                    </Carousel>
+
 
                                 </Tab>
                                 <Tab key="android" title={
@@ -122,25 +136,10 @@ const Home = () => {
                                         <Chip size="sm" variant="faded">9</Chip>
                                     </div>
                                 }>
-                                    <Card>
-                                        <CardBody>
-                                            Updating soon
-                                        </CardBody>
-                                    </Card>
+                                    <Code>Updating</Code>
+
                                 </Tab>
-                                <Tab key="wordpress" title={
-                                    <div className="flex items-center space-x-2">
-                                        {/* <GalleryIcon /> */}
-                                        <span>WordPress</span>
-                                        <Chip size="sm" variant="faded">9</Chip>
-                                    </div>
-                                }>
-                                    <Card>
-                                        <CardBody>
-                                            Updating soon
-                                        </CardBody>
-                                    </Card>
-                                </Tab>
+
                             </Tabs>
                         </div>
                     </div>

@@ -1,13 +1,10 @@
 import React from 'react'
-import { FaHtml5 } from "react-icons/fa";
 import { Code } from "@nextui-org/react";
 import { GoDatabase } from "react-icons/go";
 import { LuPencilLine } from "react-icons/lu";
 import { CiMobile3 } from "react-icons/ci";
 import { TbSettingsCode } from "react-icons/tb";
 import { CiServer } from "react-icons/ci";
-
-import { Chip, Avatar } from "@nextui-org/react";
 import { HiCodeBracket } from "react-icons/hi2";
 
 import { IoCodeOutline } from "react-icons/io5";
@@ -25,7 +22,7 @@ const Skills = () => {
                             <IoCodeOutline />
                         </div>
                         <div className="skill_desc flex flex-wrap gap-4">
-                            <Code color="success">HTML</Code>
+                            <Code size='sm' color="success">HTML</Code>
                             <Code color="warning">CSS</Code>
                             <Code color="danger">JavaScript</Code>
                             <Code color="primary">React Js </Code>

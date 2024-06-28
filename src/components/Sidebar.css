@@ -60,3 +60,16 @@
     width: calc(100% - 250px);
     /* Adjust the width */
 }
+
+@media screen and (max-width:768px) {
+    .side-navbar {
+        background: #007bff !important;
+        display: none !important;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
