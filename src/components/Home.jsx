@@ -75,7 +75,7 @@ const Home = () => {
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
                                         <span>MERN</span>
-                                        <Chip size="sm" variant="faded">5</Chip>
+                                        <Chip size="sm" variant="faded">3</Chip>
                                     </div>
                                 }>
                                     <Carousel
@@ -93,7 +93,7 @@ const Home = () => {
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
                                         <span>Front End</span>
-                                        <Chip size="sm" variant="faded">9</Chip>
+                                        <Chip size="sm" variant="faded">3</Chip>
                                     </div>
                                 }>
                                     <Carousel
@@ -112,7 +112,7 @@ const Home = () => {
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
                                         <span>ML/AI</span>
-                                        <Chip size="sm" variant="faded">7</Chip>
+                                        <Chip size="sm" variant="faded">2</Chip>
                                     </div>
                                 }>
 
@@ -133,7 +133,7 @@ const Home = () => {
                                     <div className="flex items-center space-x-2">
                                         {/* <GalleryIcon /> */}
                                         <span>Android</span>
-                                        <Chip size="sm" variant="faded">9</Chip>
+                                        <Chip size="sm" variant="faded">4</Chip>
                                     </div>
                                 }>
                                     <Code>Updating</Code>
