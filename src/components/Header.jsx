@@ -21,7 +21,7 @@ const Header = () => {
         <div className='header flex'>
             <div className="descriptions">
                 <div className='flex'>
-                    <img src="/Images/vipul-kumar.jpg" alt="Vipul Kumar" />
+                    <img src="/Images/vipul-profile-image.jpg" alt="Vipul Kumar" />
                     <div className='about-desc mt-2'>
                         <h2>Vipul Kumar</h2>
                         <p >BTech Computer Science,Graphic Era University, Dehradun.</p>
