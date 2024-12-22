@@ -8,16 +8,24 @@ const exps = [
     {
         id: 1,
         company_name: "Eyecasa",
-        role: "Software Developer Intern",
-        duration: "1 Feb 2024 - 30 May 2024 • 4 Months",
+        role: "Software Developer",
+        duration: "1 Dec 2023 - 30 June 2024 • 7 Months",
         desc: "Contributed collaboratively to a team of developers to create an ERP software tailored for colleges and universities aimed at managing and automating students, parents, and faculty",
         tech: ' Flutter, JavaScript, React, and Firebase'
     },
     {
-        id: 1,
+        id: 2,
         company_name: "Next Web Guru PVT LTD",
         role: "Full Stack Developer Intern",
         duration: "1 Jun 2023 - 1 Aug 2023 • 2 Months",
+        desc: "Built an Full Stack E-Commerce website Increased load speed by 15% through performance optimization techniques. Utilized technologies such as React.js, Node.js, Express.js, and MongoDB",
+        tech: ' React, JavaScript, CSS, Bootstrap, Node Js, Express Js, Mongo DB, Material UI'
+    },
+     {
+        id: 3,
+        company_name: "High Dreamers",
+        role: "Web Developer",
+        duration: "May 2022 - Apr 2023 • 1 Year",
         desc: "Built an Full Stack E-Commerce website Increased load speed by 15% through performance optimization techniques. Utilized technologies such as React.js, Node.js, Express.js, and MongoDB",
         tech: ' React, JavaScript, CSS, Bootstrap, Node Js, Express Js, Mongo DB, Material UI'
     },
